@@ -1,3 +1,0 @@
-version "2.12"
-- Added two cient exports for getting/setting vehicle bodywork deformations.
-- Added UpdatePlate export to server side as well

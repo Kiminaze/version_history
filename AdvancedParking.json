@@ -1,0 +1,3 @@
+{
+	"2.12": "- Added two cient exports for getting/setting vehicle bodywork deformations.\n- Added UpdatePlate export to server side as well"
+}
