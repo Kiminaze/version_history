@@ -1,6 +1,32 @@
-{
-	"2.12": [
-		"Added two client exports for getting/setting vehicle bodywork deformations.",
-		"Added UpdatePlate export to server side as well"
-	]
-}
+[
+	{
+		"version": "2.12",
+		"release-notes": [
+			"Added two client exports for getting/setting vehicle bodywork deformations.",
+			"Added UpdatePlate export to server side as well"
+		]
+	},
+	{
+		"version": "2.11",
+		"release-notes": [
+			"Added experimental feature: Saving deformations! These are currently using the Escrow encryption system but will be unencrypted once they are stable.",
+			"Deformations will only be saved when exiting/entering a vehicle.",
+			"Deformations are synced between all players.",
+			"Please help me make this viable for the public by submitting any sort of bug reports when using this!",
+			"This feature can be toggled in the config.lua if you do not want to use it."
+		]
+	},
+	{
+		"version": "2.11.1",
+		"release-notes": [
+			"Fixed error in sql syntax."
+		]
+	},
+	{
+		"version": "2.11.2",
+		"release-notes": [
+			"Added an exports to reset/fix bodywork deformations. (see exports section inside the readme)",
+			"Fixed some log texts to prevent potential errors."
+		]
+	}
+]
