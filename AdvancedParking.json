@@ -1,6 +1,6 @@
 [
 	{
-		"version": "2.12",
+		"version": "2.12.213.3543.6565",
 		"release-notes": [
 			"Added two client exports for getting/setting vehicle bodywork deformations.",
 			"Added UpdatePlate export to server side as well"
