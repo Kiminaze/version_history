@@ -1,32 +1,244 @@
 [
 	{
-		"version": "2.1.213.3543.6565",
+		"version": "2.12",
+		"date": "2021-12-22",
 		"release-notes": [
-			"Added two client exports for getting/setting vehicle bodywork deformations.",
-			"Added UpdatePlate export to server side as well"
-		]
-	},
-	{
-		"version": "2.11",
-		"release-notes": [
-			"Added experimental feature: Saving deformations! These are currently using the Escrow encryption system but will be unencrypted once they are stable.",
-			"Deformations will only be saved when exiting/entering a vehicle.",
-			"Deformations are synced between all players.",
-			"Please help me make this viable for the public by submitting any sort of bug reports when using this!",
-			"This feature can be toggled in the config.lua if you do not want to use it."
-		]
-	},
-	{
-		"version": "2.11.1",
-		"release-notes": [
-			"Fixed error in sql syntax."
+			"- Added two client exports for getting/setting vehicle bodywork deformations.",
+			"- Added UpdatePlate export to server side as well"
 		]
 	},
 	{
 		"version": "2.11.2",
+		"date": "2021-12-14",
 		"release-notes": [
-			"Added an exports to reset/fix bodywork deformations. (see exports section inside the readme)",
-			"Fixed some log texts to prevent potential errors."
+			"- Added an exports to reset/fix bodywork deformations. (see exports section inside the readme)",
+			"- Fixed some log texts to prevent potential errors."
+		]
+	},
+	{
+		"version": "2.11.1",
+		"date": "2021-12-14",
+		"release-notes": [
+			"- Fixed error in sql syntax."
+		]
+	},
+	{
+		"version": "2.11",
+		"date": "2021-12-12",
+		"release-notes": [
+			"- Added experimental feature: Saving deformations! These are currently using the Escrow encryption system but will be unencrypted once they are stable.",
+			"- Deformations will only be saved when exiting/entering a vehicle.",
+			"- Deformations are synced between all players.",
+			"- Please help me make this viable for the public by submitting any sort of bug reports when using this!",
+			"- This feature can be toggled in the config.lua if you do not want to use it."
+		]
+	},
+	{
+		"version": "2.10",
+		"date": "2021-11-27",
+		"release-notes": [
+			"- Added default support for LegacyFuel's exports (no need to add them manually).",
+			"- Re-added smashed windows being saved (hopefully fixed, please report client side errors asap).",
+			"- Removed sql-file. Table for database will be automatically added by the script if it does not exist.",
+			"- Fixed two major bugs regarding RoutingBuckets and spawning default vehicles (wrong plate etc)."
+		]
+	},
+	{
+		"version": "2.9.1",
+		"date": "2021-08-13",
+		"release-notes": [
+			"- Removed an unnecessary leftover print on server side."
+		]
+	},
+	{
+		"version": "2.9",
+		"date": "2021-08-13",
+		"release-notes": [
+			"- Changed the event for changing a vehicle plate into a much easier to use export."
+		]
+	},
+	{
+		"version": "2.8.2",
+		"date": "2021-07-24",
+		"release-notes": [
+			"- Minor fix for the exports."
+		]
+	},
+	{
+		"version": "2.8.1",
+		"date": "2021-07-24",
+		"release-notes": [
+			"- Fixed an error that could happen when saving only owned vehicles."
+		]
+	},
+	{
+		"version": "2.8",
+		"date": "2021-07-24",
+		"release-notes": [
+			"- Added config option for saving only player owned vehicles (ESX only, requires \"kimi_callbacks\").",
+			"- Added config option to run the cleanup function at any time of day.",
+			"- Updating plates is now easier. When triggering the event, only the \"newPlate\" needs to have exactly 8 characters. Also added error handling for this event.",
+			"- Added a new file for functions that can be run at any time of day (this file can be used by everyone for free in any project! (refer to the contents of that file for more))."
+		]
+	},
+	{
+		"version": "2.7.1",
+		"date": "2021-07-09",
+		"release-notes": [
+			"- Added serverside exports for getting a vehicles position.",
+			"- Fixed a really rare occurring error on server side when trying to spawn vehicles that could crash the script."
+		]
+	},
+	{
+		"version": "2.7",
+		"date": "2021-06-28",
+		"release-notes": [
+			"- Added configurable plates blacklist. You can now blacklist certain plates or parts of plates."
+		]
+	},
+	{
+		"version": "2.6.1",
+		"date": "2021-06-04",
+		"release-notes": [
+			"- Added the ability to not use \"kimi_callbacks\". But then the two exports will not be available.",
+			"- Removed the 8 character limit when looking for vehicle positions with the new exports.",
+			"- Fixed an error when looking for vehicle positions using the new exports."
+		]
+	},
+	{
+		"version": "2.6",
+		"date": "2021-06-01",
+		"release-notes": [
+			"- Added export for retrieving the location of a single vehicle by its plate.",
+			"- Added export for retrieving the locations of several vehicles by their plates.",
+			"- Added [kimi_callbacks](https://forum.cfx.re/t/release-callbacks-using-exports-and-with-added-timeouts-free/3035585) script for those callbacks.",
+			"- Fixed vehicle duplication glitch when restarting the script while some vehicle weren't properly spawned.",
+			"- Fixed vehicle duplication glitch due to it being saved with the wrong plate (plate still needs to be set before the player sits inside).",
+			"- Fixed \"Setting mods failed\" spam in the console (this message can still appear but it should not get spammed anymore!).",
+			"- Added more information to \"Setting mods failed\" message to narrow problems down if it should appear.",
+			"- Removed bodyHealth from the values which the server automatically saves (still gets saved from client side update) (this fixes the \"rattling\" noises of the vehicle)."
+		]
+	},
+	{
+		"version": "2.5",
+		"date": "2021-05-05",
+		"release-notes": [
+			"- added a license",
+			"- support for custom vehicle colors (using RGB)",
+			"- added config option for vehicles rendering as scorched when broken",
+			"- added an event that can be triggered when repairing a vehicle to not make it render as scorched anymore (replace vehicle with your variable):",
+			"    TriggerServerEvent(\"AdvancedParking:renderScorched\", NetworkGetNetworkIdFromEntity(vehicle), false)",
+			"- fixed rare occasions of vehicles respawning without any of their proper mods",
+			"- massively reduced network traffic by fixing a bug when spawning a vehicle",
+			"- fixed another error regarding the CleanUp() function",
+			"- fixed a weird deletion error regarding client side vehicles",
+			"- added interior color to the saved values"
+		]
+	},
+	{
+		"version": "2.3.1",
+		"date": "2021-03-05",
+		"release-notes": [
+			"- fixed a nil value resulting in an SQL error"
+		]
+	},
+	{
+		"version": "2.3",
+		"date": "2021-03.05",
+		"release-notes": [
+			"- added xenon light colour to saved values",
+			"- added a blacklist for vehicles or whole classes as a config option",
+			"- added a configurable feature that allows to set an interval at which every vehicle that is currently in the world will be deleted if it is too far away from a player. This is mainly useful for large servers with a lot of players. Players will receive a notification prior to the deletion, so e.g. they can get to their vehicles before it happens.",
+			"- (hopefully) fixed the CleanUp() function not working as expected",
+			"- fixed an error in the server console when deleting certain entities",
+			"- fixed another issue related to ESX.Game.DeleteVehicle that could prevent the vehicle from being deleted if it happened just at the right moment."
+		]
+	},
+	{
+		"version": "2.2",
+		"date": "2021-02-17",
+		"release-notes": [
+			"- fixed an error regarding vehicle plate changing",
+			"- finally re-added the command to completely wipe the database"
+		]
+	},
+	{
+		"version": "2.1",
+		"date": "2021-02-15",
+		"release-notes": [
+			"- fixed a bug that could result in the respawning of a deleted vehicle",
+			"- changed a few things when spawning a vehicle (hopefully resolves all instances of not properly saving vehicle health)",
+			"- if there is an update to a vehicle when the same vehicle is already spawned in the world somewhere, it will first try to despawn that one in order to not create a duplicate vehicle",
+			"- added nil-error handling for events that need to be triggered from other scripts"
+		]
+	},
+	{
+		"version": "2.0",
+		"date": "2021-02-08",
+		"release-notes": [
+			"- IF YOU UPDATE FROM AN OLDER VERSION: YOU NEED TO EMPTY THE vehicle_parking TABLE FROM YOUR DATABASE! (this should be the only time you need to do this!)",
+			"- Complete rewrite of the code base",
+			"- Server now spawns the vehicle",
+			"- Server automatically checks for position, rotation, lockStatus, bodyHealth, engineHealth and petrolTankHealth and updates accordingly",
+			"- Manual update of vehicles only necessary when other values are being changed",
+			"- Vehicles that are purely client-side (meaning they can only be seen by one player) are now not saved anymore",
+			"- Expanded the server event \"AdvancedParking:deleteVehicle\" with a boolean value indicating if the vehicle should be deleted from the world and not only the table.",
+			"- Vehicle Extras now working properly",
+			"- Exploded vehicles now also spawn with a scorched look",
+			"- Broken windows now saved",
+			"- Flat tires / On rims now saved",
+			"- Missing doors now saved",
+			"- bulletproof tires now saved"
+		]
+	},
+	{
+		"version": "1.4",
+		"date": "2021-02-01",
+		"release-notes": [
+			"- Fixed an error on serverside that could happen, when a vehicle was updated that was not already registered in the database."
+		]
+	},
+	{
+		"version": "1.3",
+		"date": "2021-01-29",
+		"release-notes": [
+			"- (probably) fixed duplicating vehicles in a certain case"
+		]
+	},
+	{
+		"version": "1.2",
+		"date": "2021-01-28",
+		"release-notes": [
+			"- Fixed saving and re-applying of all vehicle health values",
+			"- Fixed compatibility with several scripts that used \"Previews\" of vehicles (mainly vehicle shops and some garages) by adding a client event that has to be triggered when the script should stop (and start) working again.",
+			"    - Stopping: TriggerEvent(\"AdvancedParking:enable\", false)",
+			"    - Starting: TriggerEvent(\"AdvancedParking:enable\", true)"
+		]
+	},
+	{
+		"version": "1.1",
+		"date": "2021-01-26",
+		"release-notes": [
+			"- Bugfix: Compatibility with Garage from Codesign (vehicle did respawn after storing in garage)",
+			"- Bugfix: liveries not saving properly",
+			"- custom wheels saving",
+			"- new Client Event to trigger a manual update of a vehicle: TriggerEvent(\"AdvancedParking:updateVehicle\", vehicle)",
+			"- Admin Command for deleting all vehicles from the database table: \"deleteSavedVehicles\" (needs to be executed twice to take effect)"
+		]
+	},
+	{
+		"version": "1.0",
+		"date": "2021-01-26",
+		"release-notes": [
+			"- Park any vehicle (cars, planes, boats, bikes, etc.) anytime anywhere!",
+			"- Vehicles are saved with\n    - status (engine health, dirt level, fuel level etc.)",
+            "    - mods (spoiler, bumper, performance tuning, etc.)",
+            "    - colours (primary, secondary, etc.)",
+            "    - extras (all vehicles extras (e.g. the banshee roof)",
+			"- Configurable spawn distance (when a vehicle despawned or after e.g. server restart)",
+			"- Configurable debug mode (debug messages to figure out what's wrong)",
+			"- Configurable \"cleanup\" time for the cleanup functionality",
+			"- includes full source code"
 		]
 	}
 ]
