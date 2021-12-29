@@ -1,0 +1,107 @@
+[
+	{
+		"version": "1.4",
+		"date": "2021-12-27",
+		"release-notes": [
+			"- Added config option to allow toggleing engine only when vehicle owner (or key when using VehicleKeyChain)."
+		]
+	},
+	{
+		"version": "1.3.5",
+		"date": "2021-08-15",
+		"release-notes": [
+			"- Fixed vehicle being repaired when an extra was toggled. (again)"
+		]
+	},
+	{
+		"version": "1.3.4",
+		"date": "2021-08-11",
+		"release-notes": [
+			"- Fixed vehicle being repaired when an extra was toggled.",
+			"- Fixed vehicle \"flipping\" when interacting while entering."
+		]
+	},
+	{
+		"version": "1.3.3",
+		"date": "2021-07-05",
+		"release-notes": [
+			"- Fixed an error related to the menu not opening when not using VehicleKeyChain."
+		]
+	},
+	{
+		"version": "1.3.2",
+		"date": "2021-06-26",
+		"release-notes": [
+			"- Fixed a server and client side error when using the lock button without a vehicle close."
+		]
+	},
+	{
+		"version": "1.3.1",
+		"date": "2021-06-21",
+		"release-notes": [
+			"- Better performance when opening the menu.",
+			"- Fixed Compatibility with newest [VehicleKeyChain](https://forum.cfx.re/t/release-vehicle-key-chain/3319563) update."
+		]
+	},
+	{
+		"version": "1.3",
+		"date": "2021-06-13",
+		"release-notes": [
+			"- Added compatibility with [VehicleKeyChain](https://forum.cfx.re/t/release-vehicle-key-chain/3319563).",
+			"- Added kimi_callbacks to the dependencies.",
+			"- Fixed group not being set properly and the Delete Option missing from the menu."
+		]
+	},
+	{
+		"version": "1.2",
+		"date": "2021-06-05",
+		"release-notes": [
+			"- Added [kimi_callbacks](https://forum.cfx.re/t/release-callbacks-using-exports-and-with-added-timeouts-free/3035585) script for callbacks. This is a necessity and needs to be installed properly!",
+			"- Added config option for disabling vehicle air controls.",
+			"- Added config option for disabling vehicle roll over.",
+			"- Added the ability to flip a vehicle from outside (configurable force multiplier) (more players = more force).",
+			"- Neonlights option is now only for vehicle owner or driver.",
+			"- Opening/Closing of vehicle doors is now only for vehicle owner.",
+			"- Other players can only open the door of their respective seat or if they are close enough.",
+			"- Fixed vehicle engine not staying off when entering a vehicle after a server restart.",
+			"- Fixed Lockstatus Unlocked from 0 to 1. This fixes compatibility with many other scripts (like trunk inventories)."
+		]
+	},
+	{
+		"version": "1.1.1",
+		"date": "2021-05-16",
+		"release-notes": [
+			"- Fixed lock button not using vehicle ownership."
+		]
+	},
+	{
+		"version": "1.1",
+		"date": "2021-05-15",
+		"release-notes": [
+			"- Updated to ContextMenu v1.1 (update that as well or you will get errors!)",
+			"- Added config options for keeping the engine on/off when exiting/entering a vehicle.",
+			"- Added config option for turning the engine on/off when inside the vehicle with a button.",
+			"- Added config option for locking vehicle with a button.",
+			"- Added config option for max distance for the menu.",
+			"- Fixed Radio option being enabled for any vehicle.",
+			"- Fixed Headlight option being enabled for any vehicle."
+		]
+	},
+	{
+		"version": "1.0.3",
+		"date": "2021-05-01",
+		"release-notes": [
+			"- Fixed an error regarding the delete option.",
+			"- Fixed several errors regarding ESX.",
+			"- Made it compatible with those stupid non-8-symbol plates some ESX scripts use."
+		]
+	},
+	{
+		"version": "1.0.1",
+		"date": "2021-04-24",
+		"release-notes": [
+			"- Fixed a server side error with the sql queries.",
+			"- Fixed a client side error related using the shuffle function from the menu."
+		]
+	}
+]
