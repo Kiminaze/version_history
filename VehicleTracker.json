@@ -1,0 +1,24 @@
+[
+	{
+		"version": "1.2.1",
+		"date": "2021-12-01",
+		"release-notes": [
+			"- Fixed an error related to the tracker item."
+		]
+	},
+	{
+		"version": "1.2",
+		"date": "2021-12-01",
+		"release-notes": [
+			"- Added an item to open the menu."
+		]
+	},
+	{
+		"version": "1.1",
+		"date": "2021-08-01",
+		"release-notes": [
+			"- Added configurable button to open the menu (defaults to nothing).",
+			"- Fixed a rare occuring error that could crash the script."
+		]
+	}
+]
