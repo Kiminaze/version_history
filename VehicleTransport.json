@@ -1,0 +1,57 @@
+[
+	{
+		"version": "1.6",
+		"date": "2021-04-20",
+		"release-notes": [
+			"- added a license",
+			"- re-added the source code as it was apparently missing from the v1.5 release",
+			"- added the possibility to rotate the rampmodel when creating a transport"
+		]
+	},
+	{
+		"version": "1.5",
+		"date": "2021-03-11",
+		"release-notes": [
+			"- fixed server side performance (C# overhead to stronk; from ~1.3ms down to 0.00ms)",
+			"- added a ramp for the slamtruck for those really low vehicles"
+		]
+	},
+	{
+		"version": "1.4",
+		"date": "2021-01-23",
+		"release-notes": [
+			"- Added 3 new vehicles as Transports: avenger, avenger2, slamtruck",
+			"- Added the source code to the resource. You are free to modify it for your own version. You are not allowed to re-release it anywhere without getting permission from me.",
+			"- Made the source code a lot more readable",
+			"- Potentially fixed a bug that occurred only on OneSync Infinity (ramp did not despawn properly)"
+		]
+	},
+	{
+		"version": "1.3",
+		"date": "2021-01-14",
+		"release-notes": [
+			"- Added 3 new vehicles as Transports: avenger, avenger2, slamtruck",
+			"- Added the source code to the resource.",
+			"- Made the source code a lot more readable.",
+			"- Potentially fixed a bug that occurred only on OneSync Infinity (ramp did not despawn properly)"
+		]
+	},
+	{
+		"version": "1.2",
+		"date": "2021-01-12",
+		"release-notes": [
+			"- Added an option to enable / disable the scripts functionality.",
+			"- Fixed a bug that would just make the ramp invisible and not despawn it on non-onesync servers.",
+			"- IMPORTANT: If you do not use onesync: change onesync to false in the config.ini!",
+			"- If you still encounter the issue with the invisible ramp (even on onesync), change onesync to false in the config! This might have something to do with older server versions."
+		]
+	},
+	{
+		"version": "1.1",
+		"date": "2021-01-12",
+		"release-notes": [
+			"- Fixed a bug that would lock the chat when trying to create a new transport",
+			"- Added a readMe file, so people that do not come from the forum can read everything they need to know."
+		]
+	}
+]
