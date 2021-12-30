@@ -1,0 +1,65 @@
+[
+	{
+		"version": "1.3",
+		"date": "2021-08-07",
+		"release-notes": [
+			"- Added the ability to give the master key to another player.",
+			"- Added a blacklist for vehicle models that prevents players from giving / creating keys."
+		]
+	},
+	{
+		"version": "1.2.1",
+		"date": "2021-06-30",
+		"release-notes": [
+			"- Only client.lua changed.",
+			"- Fixed weird glitch when setting Config.keyMenuKey to nil."
+		]
+	},
+	{
+		"version": "1.2",
+		"date": "2021-06-26",
+		"release-notes": [
+			"- Added categories to the ContextMenu for a high amount of owned keys / vehicles. (configurable amount of vehicles required)",
+			"- Fixed client side error when removing key.",
+			"- Removed debug command that allowed anyone to change a plate of a vehicle."
+		]
+	},
+	{
+		"version": "1.1.3",
+		"date": "2021-06-24",
+		"release-notes": [
+			"- Re-added Config.Strings.helpText (was missing)."
+		]
+	},
+	{
+		"version": "1.1.2",
+		"date": "2021-06-24",
+		"release-notes": [
+			"- Only server.lua changed.",
+			"- Fixed key duplication glitch.",
+			"- Added additional error checks to prevent abuse."
+		]
+	},
+	{
+		"version": "1.1.1",
+		"date": "2021-06-22",
+		"release-notes": [
+			"- Only client.lua changed.",
+			"- Fixed \"NULL\" name for modded vehicles."
+		]
+	},
+	{
+		"version": "1.1",
+		"date": "2021-06-21",
+		"release-notes": [
+			"- Added costs to creating / invalidating keys.",
+			"- Added and changed a few notifications.",
+			"- Completely reworked the code for the exports and callbacks to allow for more stuff.",
+			"- Added server side exports for getting keys of a player (see server export usage).",
+			"- Added config option for job vehicles (player automatically has the key for his job vehicles).",
+			"- Added additional error checks.",
+			"- Completely reworked the menus to allow for the vehicle name to be shown.",
+			"- Fixed ownership for vehicles with plates with less than 7 chars."
+		]
+	}
+]
