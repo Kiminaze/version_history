@@ -1,5 +1,13 @@
 [
 	{
+		"version": "2.13",
+		"date": "2022-01-01",
+		"release-notes": [
+			"- Added version checker that will display patch notes in the server console when using an outdated version of the script.",
+			"- Fixed and updated bodywork deformation to work better."
+		]
+	},
+	{
 		"version": "2.12",
 		"date": "2021-12-22",
 		"release-notes": [
@@ -232,9 +240,9 @@
 		"release-notes": [
 			"- Park any vehicle (cars, planes, boats, bikes, etc.) anytime anywhere!",
 			"- Vehicles are saved with\n    - status (engine health, dirt level, fuel level etc.)",
-            "    - mods (spoiler, bumper, performance tuning, etc.)",
-            "    - colours (primary, secondary, etc.)",
-            "    - extras (all vehicles extras (e.g. the banshee roof)",
+			"    - mods (spoiler, bumper, performance tuning, etc.)",
+			"    - colours (primary, secondary, etc.)",
+			"    - extras (all vehicles extras (e.g. the banshee roof)",
 			"- Configurable spawn distance (when a vehicle despawned or after e.g. server restart)",
 			"- Configurable debug mode (debug messages to figure out what's wrong)",
 			"- Configurable \"cleanup\" time for the cleanup functionality",
