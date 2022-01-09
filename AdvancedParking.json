@@ -1,5 +1,13 @@
 [
 	{
+		"version": "2.13.1",
+		"date": "2022-01-09",
+		"release-notes": [
+			"- Fixed FixVehicleDeformation export not syncing to every client properly.",
+			"- Fixed deformations.lua still being encrypted, as the code is now public."
+		]
+	},
+	{
 		"version": "2.13",
 		"date": "2022-01-01",
 		"release-notes": [
