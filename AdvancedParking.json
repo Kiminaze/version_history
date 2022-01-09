@@ -1,5 +1,13 @@
 [
 	{
+		"version": "2.14",
+		"date": "2022-01-10",
+		"release-notes": [
+			"- Added config option to delete exploded vehicles upon cleanup.",
+			"- Added config option to automatically park vehicles in the garage upon cleanup."
+		]
+	},
+	{
 		"version": "2.13.1",
 		"date": "2022-01-09",
 		"release-notes": [
