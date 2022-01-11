@@ -1,5 +1,12 @@
 [
 	{
+		"version": "2.14.1",
+		"date": "2022-01-11",
+		"release-notes": [
+			"- Fixed a nil error inside timerTasks."
+		]
+	},
+	{
 		"version": "2.14",
 		"date": "2022-01-10",
 		"release-notes": [
