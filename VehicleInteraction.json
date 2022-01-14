@@ -1,5 +1,12 @@
 [
 	{
+		"version": "1.4.1",
+		"date": "2022-01-14",
+		"release-notes": [
+			"- Removed all files from encryption (why did no one report this yet? :D )."
+		]
+	},
+	{
 		"version": "1.4",
 		"date": "2021-12-27",
 		"release-notes": [
