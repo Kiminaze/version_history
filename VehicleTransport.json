@@ -1,5 +1,13 @@
 [
 	{
+		"version": "1.7",
+		"date": "2022-01-24",
+		"release-notes": [
+			"- Added a version checker. Displays new updates and patch notes in the server console.",
+			"- Fixed an error that could teleport a player into a random vehicle."
+		]
+	},
+	{
 		"version": "1.6",
 		"date": "2021-04-20",
 		"release-notes": [
