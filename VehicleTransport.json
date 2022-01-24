@@ -3,6 +3,7 @@
 		"version": "1.7",
 		"date": "2022-01-24",
 		"release-notes": [
+			"- Now uses the Escrow encryption for the server sided files. Source code for the DLL's is still included!",
 			"- Added a version checker. Displays new updates and patch notes in the server console.",
 			"- Fixed an error that could teleport a player into a random vehicle."
 		]
