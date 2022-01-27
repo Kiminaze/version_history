@@ -1,5 +1,13 @@
 [
 	{
+		"version": "1.3",
+		"date": "2022-01-27",
+		"release-notes": [
+			"- Added version checker to the script. Shows new versions and patch notes in the server console.",
+			"- Fixed an error inside the menu that prevented from deactivating the tracker."
+		]
+	},
+	{
 		"version": "1.2.1",
 		"date": "2021-12-01",
 		"release-notes": [
