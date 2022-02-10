@@ -6,6 +6,7 @@
 			"- Complete code overhaul.",
 			"- Encrypted core functionality that shouldn't be changed anyways.",
 			"- Added my version checker.",
+			"- Removed the SQL file. The script now does everything automatically!",
 			"- Added foreign keys to database table. (now fully compatible with VehicleRegistration by default)",
 			"- Added several exports (see README on usage).",
 			"- Added temporary key feature (see README on usage).",
