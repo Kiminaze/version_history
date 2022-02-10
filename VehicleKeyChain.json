@@ -1,5 +1,12 @@
 [
 	{
+		"version": "2.0.1",
+		"date": "2022-02-10",
+		"release-notes": [
+			"- Fixed an error related to manually removing a temporary key."
+		]
+	},
+	{
 		"version": "2.0",
 		"date": "2022-02-10",
 		"release-notes": [
