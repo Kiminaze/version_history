@@ -1,5 +1,12 @@
 [
 	{
+		"version": "2.0.2",
+		"date": "2022-02-12",
+		"release-notes": [
+			"- Fixed remote control sound playing more than once if other players are closeby."
+		]
+	},
+	{
 		"version": "2.0.1",
 		"date": "2022-02-10",
 		"release-notes": [
