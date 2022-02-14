@@ -1,5 +1,12 @@
 [
 	{
+		"version": "1.1.2",
+		"date": "2021-02-14",
+		"release-notes": [
+			"- Fixed an error in the menu that would show \"NULL\" instead of the vehicle / model name."
+		]
+	},
+	{
 		"version": "1.1.1",
 		"date": "2021-12-29",
 		"release-notes": [
