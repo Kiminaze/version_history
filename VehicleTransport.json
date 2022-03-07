@@ -1,5 +1,17 @@
 [
 	{
+		"version": "1.8",
+		"date": "2022-03-07",
+		"release-notes": [
+			"- Added events for attaching and detaching vehicles that can be used in other scripts (check the readme for more).",
+			"- transportData.json is now automatically updated when creating a new transport. No more copy-pasting necessary; only a script restart.",
+			"- transportData.json is also now backed up once before a new transport is created.",
+			"- Now spawns the ramp on serverside for onesync servers to prevent a bug related to onesync infinity.",
+			"- Fixed the ramp position not being set correctly when creating a new transport.",
+			"- Fixed vehicles not being detected correctly for some client / server version combinations."
+		]
+	},
+	{
 		"version": "1.7",
 		"date": "2022-01-24",
 		"release-notes": [
