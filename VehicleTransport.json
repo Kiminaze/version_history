@@ -1,5 +1,12 @@
 [
 	{
+		"version": "1.8.1",
+		"date": "2022-03-15",
+		"release-notes": [
+			"- Fixed ramp spawning."
+		]
+	},
+	{
 		"version": "1.8",
 		"date": "2022-03-07",
 		"release-notes": [
