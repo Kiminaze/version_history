@@ -1,5 +1,12 @@
 [
 	{
+		"version": "3.0.0",
+		"date": "2022-04-02",
+		"release-notes": [
+			"- Switched to the new ContextMenu version. Incompatible with the old ContextMenu."
+		]
+	},
+	{
 		"version": "2.0.2",
 		"date": "2022-02-12",
 		"release-notes": [
