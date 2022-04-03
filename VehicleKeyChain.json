@@ -1,5 +1,12 @@
 [
 	{
+		"version": "3.0.3",
+		"date": "2022-04-03",
+		"release-notes": [
+			"- Fixed another error that only happened when trying to create a new key through the ContextMenu."
+		]
+	},
+	{
 		"version": "3.0.2",
 		"date": "2022-04-03",
 		"release-notes": [
