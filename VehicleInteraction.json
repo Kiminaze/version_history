@@ -1,5 +1,12 @@
 [
 	{
+		"version": "1.6.1",
+		"date": "2022-05-14",
+		"release-notes": [
+			"- Fixed error when locking vehicle."
+		]
+	},
+	{
 		"version": "1.6.0",
 		"date": "2022-05-14",
 		"release-notes": [
