@@ -1,5 +1,20 @@
 [
 	{
+		"version": "1.6.0",
+		"date": "2022-05-14",
+		"release-notes": [
+			"- Added support for QBCore.",
+			"- Added admin option for repairing a vehicle and flipping it right side up",
+			"- Added a small amount of encryption. (~200 lines)",
+			"- Added the door lock code from VehicleKeyChain (lights now have a blinking pattern).",
+			"- Reworked some parts of the code to make it more readable and performant. Most notably:",
+			"  - Separated a lot of functions into smaller functions.",
+			"  - Switched from entity enumeration to GetGamePool function for getting vehicles on client side.",
+			"- Fixed a missing string in the config.",
+			"- \"Fixed\" the \"keepEngineOff\" setting. GTA added a new function. Not a fix, actually a new function now."
+		]
+	},
+	{
 		"version": "1.5",
 		"date": "2022-04-02",
 		"release-notes": [
