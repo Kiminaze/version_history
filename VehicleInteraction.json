@@ -1,5 +1,12 @@
 [
 	{
+		"version": "1.6.2",
+		"date": "2022-06-19",
+		"release-notes": [
+			"- Fixed an error when trying to flip a vehicle."
+		]
+	},
+	{
 		"version": "1.6.1",
 		"date": "2022-05-14",
 		"release-notes": [
