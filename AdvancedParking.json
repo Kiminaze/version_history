@@ -1,5 +1,30 @@
 [
 	{
+		"version": "3.0.0",
+		"date": "2022-07-01",
+		"release-notes": [
+			"- Restructured the database table. If you are updating from an old version, make sure to delete the old table!",
+			"- Reworked the entire code base.",
+			"- Separated code into smaller functions for better readability.",
+			"- Separated tuning and vehicle status into separate functions for better performance across the board.",
+			"- Added different layers of logging: Info, Debug, Warning, Error. Can be toggled on/off individually in \"Log.lua\".",
+			"- Added client and server event when a vehicle is spawned. (can be used in other scripts)",
+			"- Added a small amount of encryption (~NUM lines).",
+			"- Replaced server side player iteration with the proper GetPlayers function.",
+			"- GetClosestPlayer now ignores players in different routing buckets.",
+			"- Switched from unique plates as identifiers to a custom generated hex identifier to make the script independent from plates.",
+			"- Now saves all vehicle mods from 0-49 (except 17, 19, 21 since I couldn't find their proper uses yet.",
+			"- Now automatically saves trailers.",
+			"- Now saves entity state bags and re-applies them on spawn.",
+			"- Removed saving of bodywork deformation. You now have to use the (free) script VehicleDeformation by me to keep this feature.",
+			"- Reworked timer tasks to be more up to my coding standards. Now also features exports to be used from other scripts.",
+			"- Fixed a rare occurring onesync related error.",
+			"- Fixed a calculation error when updating a vehicle.",
+			"- Fixed several logic errors inside the delete timer. Now deletes all vehicles properly.",
+			"- Fixed error that lead to no return value from \"GetVehiclePositions\" export."
+		]
+	},
+	{
 		"version": "2.14.1",
 		"date": "2022-01-11",
 		"release-notes": [
