@@ -1,5 +1,12 @@
 [
 	{
+		"version": "3.0.1",
+		"date": "2022-07-02",
+		"release-notes": [
+			"- Fixed an error related to state bag updates in the database."
+		]
+	},
+	{
 		"version": "3.0.0",
 		"date": "2022-07-01",
 		"release-notes": [
