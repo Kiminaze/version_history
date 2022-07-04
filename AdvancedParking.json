@@ -1,5 +1,15 @@
 [
 	{
+		"version": "3.0.2",
+		"date": "2022-07-04",
+		"release-notes": [
+			"- Fixed an error related to local (client side only) vehicles.",
+			"- Fixed an error when spawning a vehicle related to gamebuilds below 2372.",
+			"- Fixed an error related to rims (and probably other tuning options) not being applied properly on spawn.",
+			"- Fixed an error when using the autoDelete option."
+		]
+	},
+	{
 		"version": "3.0.1",
 		"date": "2022-07-02",
 		"release-notes": [
