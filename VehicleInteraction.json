@@ -1,5 +1,12 @@
 [
 	{
+		"version": "1.7.0",
+		"date": "2022-07-04",
+		"release-notes": [
+			"- Added compatibility for the v3.x releases of AdvancedParking for the \"Delete\" and \"Restore\" function."
+		]
+	},
+	{
 		"version": "1.6.2",
 		"date": "2022-06-19",
 		"release-notes": [
