@@ -1,5 +1,17 @@
 [
 	{
+		"version": "3.0.3",
+		"date": "2022-07-06",
+		"release-notes": [
+			"- Removed two redundant exports.",
+			"- Added missing exports to the README.",
+			"- Fixed a logic error related to the wrong set of rims being applied.",
+			"- Fixed a logic error related to deleting vehicles using their plate.",
+			"- Disabled DEBUG log by default. All log levels can be toggled in \"Log.lua\".",
+			"- Set cleanup threshold back down to a week."
+		]
+	},
+	{
 		"version": "3.0.2",
 		"date": "2022-07-04",
 		"release-notes": [
