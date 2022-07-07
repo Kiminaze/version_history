@@ -1,5 +1,14 @@
 [
 	{
+		"version": "3.0.4",
+		"date": "2022-07-07",
+		"release-notes": [
+			"- Fixed \"lastUpdate\" value not being updated on server side update.",
+			"- Fixed three different native errors related to \"IsPedAPlayer\", \"NetworkGetEntityOwner\" and \"NetworkGetNetworkIdFromEntity\".",
+			"- Fixed a logic error related to deleting vehicles using their plate, again."
+		]
+	},
+	{
 		"version": "3.0.3",
 		"date": "2022-07-06",
 		"release-notes": [
