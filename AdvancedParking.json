@@ -1,5 +1,16 @@
 [
 	{
+		"version": "3.0.5",
+		"date": "2022-07-13",
+		"release-notes": [
+			"- Moved some debug logs around on client side to better show what's happening.",
+			"- Added a note in the installation instructions for anyone updating from any pre v3 release.",
+			"- Fixed a rare case of the wrong vehicle model being spawned.",
+			"- Number plate text is now applied on server side to hopefully fix the plate issues.",
+			"- Changed \"plate changed\" debug text to an error to highlight it in the console for easier bug fixing if it should happen again."
+		]
+	},
+	{
 		"version": "3.0.4",
 		"date": "2022-07-07",
 		"release-notes": [
