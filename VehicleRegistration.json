@@ -1,5 +1,12 @@
 [
 	{
+		"version": "1.2.1",
+		"date": "2021-07-14",
+		"release-notes": [
+			"- Reverted change from 1.2.0 since it is again necessary for AdvancedParking."
+		]
+	},
+	{
 		"version": "1.2.0",
 		"date": "2021-07-04",
 		"release-notes": [
