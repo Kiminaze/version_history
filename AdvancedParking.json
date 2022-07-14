@@ -1,5 +1,16 @@
 [
 	{
+		"version": "3.0.6",
+		"date": "2022-07-14",
+		"release-notes": [
+			"- Added a command to toggle the different log levels at runtime as server admin.",
+			"- Removed the automatic plate update on server side.",
+			"- Re-added the export to update the plate manually (check readme).",
+			"- This should fix all instances of wrong plates being applied.",
+			"- Re-added the loop that prevents \"ghost\" vehicles from being spawned."
+		]
+	},
+	{
 		"version": "3.0.5",
 		"date": "2022-07-13",
 		"release-notes": [
