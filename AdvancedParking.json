@@ -1,5 +1,15 @@
 [
 	{
+		"version": "3.0.7",
+		"date": "2022-07-24",
+		"release-notes": [
+			"- Added (much) more debug information.",
+			"- Added a delay and additional check before client reports successful vehicle spawn.",
+			"- Additional check if someone is inside a vehicle before deleting a \"ghost\" vehicle.",
+			"- Implemented a workaround for a duplication glitch (vehicles would be saved and spawn in a pile) until I find a proper fix."
+		]
+	},
+	{
 		"version": "3.0.6",
 		"date": "2022-07-14",
 		"release-notes": [
