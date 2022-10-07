@@ -1,5 +1,22 @@
 [
 	{
+		"version": "2.0.0",
+		"date": "2022-10-07",
+		"release-notes": [
+			"- Completely reworked the entire script.",
+			"  - Removed all C# code and replaced it with Lua for ease of use.",
+			"  - Added some encryption to the script. (~125 out of ~800 lines)",
+			"- Onesync only. No more non-Onesync compatibility.",
+			"  - Now relying on entity state bags.",
+			"- Way better performance.",
+			"- TransportCreator rebuild in Luas version of OOP.",
+			"  - Transport data remained the same.",
+			"  - Can now be used anytime as long as permission is given to the commands. No need to start it in DEBUG mode anymore.",
+			"- Fixed several problems with the old version.",
+			"  - Most notably: Ramp attaching/detaching synced properly. No more \"under the floor spawns\" etc."
+		]
+	},
+	{
 		"version": "1.8.1",
 		"date": "2022-03-15",
 		"release-notes": [
