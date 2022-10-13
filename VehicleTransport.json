@@ -3,6 +3,7 @@
 		"version": "2.0.1",
 		"date": "2022-10-13",
 		"release-notes": [
+			"- Added Onesync as a dependency in the fxmanifest.",
 			"- Fixed being able to detach vehicles from the transport when inside the transport."
 		]
 	},
