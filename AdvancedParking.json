@@ -1,5 +1,23 @@
 [
 	{
+		"version": "3.2.0",
+		"date": "2022-10-13",
+		"release-notes": [
+			"- Removed several events and switched to more entity state bags.",
+			"- Removed client side detection of vehicles being deleted.",
+			"- Added Onesync as a dependency into the fxmanifest.",
+			"- SQL queries are now multi line to make it easier to find errors in the future.",
+			"- Switched some functions around on server side for better readability.",
+			"- Added exports for deleting vehicles on server side (check readme for more information).",
+			"- Added a timeout for vehicles that did not spawn properly. (to make them respawn when they can)",
+			"- Added a check if an NPC is inside a vehicle upon spawn. (might prevent location changes with vehicles)",
+			"- Added an initial delay on client side before vehicles are detected.",
+			"- Added a check upon script start that checks for missing models or plates to prevent faulty spawns.",
+			"- Fixed \"ghost\" updates of vehicles after they were spawned.",
+			"- Additional error checking when deleting vehicles."
+		]
+	},
+	{
 		"version": "3.0.7",
 		"date": "2022-07-24",
 		"release-notes": [
