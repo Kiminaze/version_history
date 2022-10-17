@@ -1,5 +1,15 @@
 [
 	{
+		"version": "3.2.1",
+		"date": "2022-10-17",
+		"release-notes": [
+			"- Fixed \"Tried to access invalid entity\" error related to a vehicle model.",
+			"  - Now shows a warning with the id of the vehicle once.",
+			"  - It points to a faulty vehicle model. E.g. you removed a modded vehicle that was still saved in APs table.",
+			"  - Just remove the row if this is the case or report it in our support."
+		]
+	},
+	{
 		"version": "3.2.0",
 		"date": "2022-10-13",
 		"release-notes": [
