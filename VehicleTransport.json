@@ -1,5 +1,12 @@
 [
 	{
+		"version": "2.0.2",
+		"date": "2022-10-20",
+		"release-notes": [
+			"- Fixed display of the box when creating a new transport."
+		]
+	},
+	{
 		"version": "2.0.1",
 		"date": "2022-10-13",
 		"release-notes": [
