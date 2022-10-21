@@ -1,5 +1,14 @@
 [
 	{
+		"version": "3.2.2",
+		"date": "2022-10-21",
+		"release-notes": [
+			"- Removed the timeout from the spawn function for now as it was causing more grief than good.",
+			"- Added more rounding functions to position/rotation values to stop these way too long decimal places.",
+			"- Fixed vehicles not being recognized as fully spawned by the server."
+		]
+	},
+	{
 		"version": "3.2.1",
 		"date": "2022-10-17",
 		"release-notes": [
