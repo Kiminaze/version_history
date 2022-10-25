@@ -1,5 +1,15 @@
 [
 	{
+		"version": "3.2.3",
+		"date": "2022-10-25",
+		"release-notes": [
+			"- Added the timeout from the spawn function back in again as I found the culprit.",
+			"    - Server side CreateVehicle function is bugged and can create non-networked vehicles for clients.",
+			"- Added a temporary workaround until this issue is fixed by CFX:",
+			"    - If a timeout is hit, the game will check for non-networked vehicles and delete and respawn them accordingly now."
+		]
+	},
+	{
 		"version": "3.2.2",
 		"date": "2022-10-21",
 		"release-notes": [
