@@ -1,5 +1,12 @@
 [
 	{
+		"version": "3.2.4",
+		"date": "2022-11-01",
+		"release-notes": [
+			"- Attempt to further fix client side duplicate vehicles."
+		]
+	},
+	{
 		"version": "3.2.3",
 		"date": "2022-10-25",
 		"release-notes": [
