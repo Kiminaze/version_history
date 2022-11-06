@@ -1,5 +1,14 @@
 [
 	{
+		"version": "3.2.5",
+		"date": "2022-11-06",
+		"release-notes": [
+			"- Fixed one instance of \"duplicate\" vehicles spawning on top of each other.",
+			"- Upped the spawn timeout from 17 to 32 seconds to prevent false flags.",
+			"- Minor performance improvements on server side regarding distance functions."
+		]
+	},
+	{
 		"version": "3.2.4",
 		"date": "2022-11-01",
 		"release-notes": [
