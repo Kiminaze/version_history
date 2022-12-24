@@ -1,0 +1,12 @@
+[
+	{
+		"version": "1.0.0",
+		"date": "2022-12-24",
+		"release-notes": [
+			"- ESX and QB support.",
+			"- Tracker can be toggled by using an item.",
+			"- Configurable option that only shows the other members when your tracker is also active.",
+			"- Shows the character name in the legend on the map."
+		]
+	}
+]
