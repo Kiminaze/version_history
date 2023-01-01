@@ -1,5 +1,12 @@
 [
 	{
+		"version": "2.0.1",
+		"date": "2023-01-01",
+		"release-notes": [
+			"- Fixed an error when not using AdvancedParking with this script."
+		]
+	},
+	{
 		"version": "2.0.0",
 		"date": "2022-05-07",
 		"release-notes": [
