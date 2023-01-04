@@ -1,5 +1,24 @@
 [
 	{
+		"version": "1.3.1",
+		"date": "2023-01-05",
+		"release-notes": [
+			"- Fixed case sensitivity with the blacklist.",
+			"- Fixed client side distance check."
+		]
+	},
+	{
+		"version": "1.3.0",
+		"date": "2023-01-03",
+		"release-notes": [
+			"- Added blacklist feature for plates. E.g. deny people the use of \"LSPD\" in their plates.",
+			"- Added log file.",
+			"- Fixed error when trying to use \"OpenPlateSpecificHistory\" export.",
+			"- Minor performance improvements for distance queries.",
+			"- Moved files to sub folders."
+		]
+	},
+	{
 		"version": "1.2.1",
 		"date": "2021-07-14",
 		"release-notes": [
