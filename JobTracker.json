@@ -1,5 +1,12 @@
 [
 	{
+		"version": "1.1.1",
+		"date": "2023-01-09",
+		"release-notes": [
+			"- Fixed a bug where a job change wouldn't refresh the cached job properly."
+		]
+	},
+	{
 		"version": "1.1.0",
 		"date": "2023-01-03",
 		"release-notes": [
