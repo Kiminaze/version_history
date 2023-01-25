@@ -1,5 +1,13 @@
 [
 	{
+		"version": "2.1.0",
+		"date": "2023-01-25",
+		"release-notes": [
+			"- Added ability to open close doors if the vehicle has a \"built-in ramp\".",
+			"- Fixed error with attach/detach events."
+		]
+	},
+	{
 		"version": "2.0.2",
 		"date": "2022-10-20",
 		"release-notes": [
