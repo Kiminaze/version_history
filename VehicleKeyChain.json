@@ -1,5 +1,13 @@
 [
 	{
+		"version": "3.0.6",
+		"date": "2023-01-25",
+		"release-notes": [
+			"- Fixed warning message for certain server versions.",
+			"- Slightly reformatted client.lua."
+		]
+	},
+	{
 		"version": "3.0.5",
 		"date": "2023-01-22",
 		"release-notes": [
