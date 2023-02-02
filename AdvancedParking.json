@@ -1,5 +1,15 @@
 [
 	{
+		"version": "3.3.0",
+		"date": "2023-02-02",
+		"release-notes": [
+			"- When deleting a vehicle through the \"DeleteVehicle\" export on client side, it will now also detect and delete trailers automatically.",
+			"- Massive performance improvements (up to 20x faster!).",
+			"- Direct compatibility with the \"myFuel\" resource (https://forum.cfx.re/t/myfuel-own-your-gas-station-esx-qb/5011606).",
+			"- Fixed an error when calling the \"GetVehiclePosition\" export."
+		]
+	},
+	{
 		"version": "3.2.5",
 		"date": "2022-11-06",
 		"release-notes": [
