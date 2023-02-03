@@ -1,5 +1,12 @@
 [
 	{
+		"version": "3.3.1",
+		"date": "2023-02-03",
+		"release-notes": [
+			"- Fixed an error related to saving state bags on vehicles or using the UpdatePlate export."
+		]
+	},
+	{
 		"version": "3.3.0",
 		"date": "2023-02-02",
 		"release-notes": [
