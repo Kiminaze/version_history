@@ -1,5 +1,13 @@
 [
 	{
+		"version": "3.3.2",
+		"date": "2023-02-07",
+		"release-notes": [
+			"- Fixed a critical error that was introduced in a recent client version of FiveM.",
+			"    - This fixes engine and tank health, as well as fuel level for some scripts."
+		]
+	},
+	{
 		"version": "3.3.1",
 		"date": "2023-02-03",
 		"release-notes": [
