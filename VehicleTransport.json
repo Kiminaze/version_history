@@ -1,5 +1,13 @@
 [
 	{
+		"version": "2.1.1",
+		"date": "2023-02-07",
+		"release-notes": [
+			"- Fixed being able to rotate the ramp when creating a new transport.",
+			"- Fixed version checker."
+		]
+	},
+	{
 		"version": "2.1.0",
 		"date": "2023-01-25",
 		"release-notes": [
