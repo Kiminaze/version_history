@@ -1,5 +1,14 @@
 [
 	{
+		"version": "3.4.0",
+		"date": "2023-02-11",
+		"release-notes": [
+			"- New experimental config value that allows changing the default routing bucket the script operates in.",
+			"    - This should only be changed if you know what you are doing.",
+			"- Added more granularity to my version checker to cover some edge cases and re-implemented it."
+		]
+	},
+	{
 		"version": "3.3.2",
 		"date": "2023-02-07",
 		"release-notes": [
