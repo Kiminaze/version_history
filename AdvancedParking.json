@@ -1,5 +1,17 @@
 [
 	{
+		"version": "3.6.0",
+		"date": "2023-02-28",
+		"release-notes": [
+			"- Added new parameter \"keepInWorld\" to delete exports to allow keeping the vehicle in the world and just removing it from the saved vehicles.",
+			"  - No changes necessary on your end.",
+			"- Added two new server side exports:",
+			"  - GetStateBagsFromVehicle(vehicle)",
+			"  - GetStateBagsFromPlate(plate)",
+			"- Minor fix in export documentation."
+		]
+	},
+	{
 		"version": "3.5.0",
 		"date": "2023-02-21",
 		"release-notes": [
