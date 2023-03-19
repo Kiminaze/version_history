@@ -1,5 +1,14 @@
 [
 	{
+		"version": "3.7.0",
+		"date": "2023-03-16",
+		"release-notes": [
+			"- Added config option to prevent duplicate vehicles by deleting the old one that's still out and about.",
+			"  - Note: This is intended as a compatibility feature for some other scripts and not a substitute for actually using my exports in those scripts.",
+			"- Removed blacklist check from \"UpdateVehicle\" function. This allows for manually saving any vehicle even if blacklisted using the export."
+		]
+	},
+	{
 		"version": "3.6.0",
 		"date": "2023-02-28",
 		"release-notes": [
