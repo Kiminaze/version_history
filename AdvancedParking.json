@@ -1,7 +1,7 @@
 [
 	{
 		"version": "3.7.0",
-		"date": "2023-03-16",
+		"date": "2023-03-19",
 		"release-notes": [
 			"- Added config option to prevent duplicate vehicles by deleting the old one that's still out and about.",
 			"  - Note: This is intended as a compatibility feature for some other scripts and not a substitute for actually using my exports in those scripts.",
