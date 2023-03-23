@@ -1,5 +1,14 @@
 [
 	{
+		"version": "3.8.0",
+		"date": "2023-03-23",
+		"release-notes": [
+			"- Added config option to aggressively despawn duplicate vehicles by deleting the old one that's still outside as soon as a new one spawns.",
+			"  - Note: I will not give any support about missing vehicles and vehicles being randomly deleted etc when this is set to true.",
+			"- Fixed a potential error when deleting a vehicle."
+		]
+	},
+	{
 		"version": "3.7.0",
 		"date": "2023-03-19",
 		"release-notes": [
