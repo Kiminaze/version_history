@@ -1,5 +1,13 @@
 [
 	{
+		"version": "3.9.0",
+		"date": "2023-04-17",
+		"release-notes": [
+			"- Added a new and easier way to allow other scripts to properly delete vehicles (read the readme).",
+			"- Added an export to force a vehicle update on server side."
+		]
+	},
+	{
 		"version": "3.8.0",
 		"date": "2023-03-23",
 		"release-notes": [
