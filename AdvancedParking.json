@@ -1,5 +1,12 @@
 [
 	{
+		"version": "3.9.1",
+		"date": "2023-04-19",
+		"release-notes": [
+			"- Fixed the `fixDeleteVehicle.lua` file being encrypted."
+		]
+	},
+	{
 		"version": "3.9.0",
 		"date": "2023-04-17",
 		"release-notes": [
