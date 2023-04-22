@@ -1,0 +1,22 @@
+[
+	{
+		"version": "1.0.0",
+		"date": "2023-04-22",
+		"release-notes": [
+			"- Bullets can ricochet of every surface but peds.",
+			"- PvE and PvP supported.",
+			"- Ricochets act like normal shots and can interact with the world.",
+			"- Everything configurable:",
+			"  - Min and max angle for a ricochet to occur.",
+			"  - Ricochet chance.",
+			"  - Accuracy for ricochet angle.",
+			"  - Damage in percent (based on weapon damage).",
+			"  - Ricochet distance and range in percent (based on weapon range).",
+			"  - Overrides for every weapon.",
+			"- Weapon blacklist to exclude certain weapons.",
+			"- Object blacklist to prevent ricochets on some objects.",
+			"- Material blacklist to prevent ricochets on specific surfaces.",
+			"- You can kill yourself with your own ricochets as long as an NPC is present in the vicinity."
+		]
+	}
+]
