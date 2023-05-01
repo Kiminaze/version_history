@@ -1,5 +1,13 @@
 [
 	{
+		"version": "3.0.7",
+		"date": "2023-05-01",
+		"release-notes": [
+			"- Added new config option to test out desynced behaviour when (un)locking a vehicle.",
+			"- Fixed warning message regarding version checker."
+		]
+	},
+	{
 		"version": "3.0.6",
 		"date": "2023-01-25",
 		"release-notes": [
