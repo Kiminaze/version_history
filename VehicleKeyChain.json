@@ -1,5 +1,17 @@
 [
 	{
+		"version": "3.1.0",
+		"date": "2023-05-22",
+		"release-notes": [
+			"- Config option to circumvent desynced behaviour when (un)locking a vehicle fully implemented.",
+			"- Added log file to allow for more detailed messages.",
+			"- Added many debug log messages on server side.",
+			"- Added new version of the version checker (more detailed information).",
+			"- Many performance improvements across the whole script.",
+			"- Fixed wrong script name in the version checker."
+		]
+	},
+	{
 		"version": "3.0.7",
 		"date": "2023-05-01",
 		"release-notes": [
