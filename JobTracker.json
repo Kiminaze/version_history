@@ -1,5 +1,16 @@
 [
 	{
+		"version": "1.2.0",
+		"date": "2023-06-07",
+		"release-notes": [
+			"- Added the possibility to have multiple jobs track each other (e.g. police and swat)!.",
+			"- Default blip color is now blue and blips only show on the minimap when in range.",
+			"- Added translation to config for the blip prefix.",
+			"- Updated and fixed version checker.",
+			"- Removed an unnecessary debug line."
+		]
+	},
+	{
 		"version": "1.1.2",
 		"date": "2023-01-11",
 		"release-notes": [
