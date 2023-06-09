@@ -1,5 +1,12 @@
 [
 	{
+		"version": "1.2.1",
+		"date": "2023-06-09",
+		"release-notes": [
+			"- Fixed error that could cause all jobs seeing each other."
+		]
+	},
+	{
 		"version": "1.2.0",
 		"date": "2023-06-07",
 		"release-notes": [
