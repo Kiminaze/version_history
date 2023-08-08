@@ -1,5 +1,17 @@
 [
 	{
+		"version": "3.10.0",
+		"date": "2023-08-08",
+		"release-notes": [
+			"- Removed time frame between state bag updates to the database.",
+			"  - State bags will now always be updated and accessible directly.",
+			"  - State bag updates have been separated into their own save function to save performance.",
+			"- Added debug line when an entity is removed and the `entityRemoved` event is called.",
+			"- Added vehicle type to the saved values.",
+			"- Now uses `CreateVehicleServerSetter` if type was already saved once."
+		]
+	},
+	{
 		"version": "3.9.1",
 		"date": "2023-04-19",
 		"release-notes": [
