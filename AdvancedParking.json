@@ -1,5 +1,13 @@
 [
 	{
+		"version": "3.10.1",
+		"date": "2023-08-12",
+		"release-notes": [
+			"- Fixed version checker showing that you were running a newer version while it was an older version.",
+			"- Fixed error when using a server version that doesn't support the CreateVehicleServerSetter native."
+		]
+	},
+	{
 		"version": "3.10.0",
 		"date": "2023-08-08",
 		"release-notes": [
