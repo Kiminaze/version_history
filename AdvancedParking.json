@@ -1,5 +1,16 @@
 [
 	{
+		"version": "3.11.0",
+		"date": "2023-09-05",
+		"release-notes": [
+			"- Several performance improvements:",
+			"  - Optimized vehicle update loop.",
+			"  - Optimized vehicle spawn loop.",
+			"  - Optimized \"ghost\" vehicle detection.",
+			"  - Removed \"Citizen.\" from Wait and CreateThread calls for tiny improvements."
+		]
+	},
+	{
 		"version": "3.10.1",
 		"date": "2023-08-12",
 		"release-notes": [
