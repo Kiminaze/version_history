@@ -1,5 +1,37 @@
 [
 	{
+		"version": "4.0.0",
+		"date": "2024-01-13",
+		"release-notes": [
+			"- Added QB compatibility.",
+			"- Added temporary keys to inventory.",
+			"- Added new license.",
+			"- Added localization files (English and German).",
+			"- Added config validation with appropriate messages when stuff is missing or has the wrong type.",
+			"- If player doesn't have enough money, withdraws from the bank account instead.",
+			"- Cleared out the readme file (documentation can be found at https://docs.kiminaze.de",
+			"- Performance improvements",
+			"  - A lot of formatting changes and large parts of code rewritten.",
+			"  - Added key mappings for all controls.",
+			"  - Removed several unnecessary debug logs.",
+			"  - Removed unnecessary parameter checking.",
+			"  - Simplified most functions.",
+			"- Config rewritten entirely",
+			"  - Config values are now globals.",
+			"  - Job vehicles can now be defined with ranks as well.",
+			"- Moved a lot of code to server side.",
+			"- Unencrypted exports and callbacks to allow for more changes.",
+			"- Unencrypted job vehicle check.",
+			"- Errors now show when NativeUI or ContextMenu is missing but set to be used in the config.",
+			"- Removed error when trying to use both NativeUI and ContextMenu (they work together now).",
+			"- Removed NativeUI and ContextMenu as dependencies.",
+			"- Keymaker and key inventory menus completely reworked.",
+			"- Changed \"master key\" to \"vehicle\" in all instances.",
+			"- ContextMenu menus reworked.",
+			"- Fixed some issues in the version checker."
+		]
+	},
+	{
 		"version": "3.1.1",
 		"date": "2023-08-08",
 		"release-notes": [
