@@ -1,5 +1,13 @@
 [
 	{
+		"version": "4.0.1",
+		"date": "2024-01-13",
+		"release-notes": [
+			"- Added several exports.",
+			"- Fixed some missing exports."
+		]
+	},
+	{
 		"version": "4.0.0",
 		"date": "2024-01-13",
 		"release-notes": [
