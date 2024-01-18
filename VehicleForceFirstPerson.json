@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "version": "1.0.0",
+    "date": "2021-08-03",
+    "release-notes": [
+      "- Upon entering any vehicle, the player is forced into first person directly.",
+      "- If the player is teleported into any vehicle, he will also be forced into first person.",
+      "- When the player exits a vehicle, the camera gets reset to whatever he used before sitting in the vehicle. (e.g. when in far away camera before entering the vehicle, you will be set into the far away camera after exiting the vehicle again)",
+      "- It includes a blacklist for vehicle models and complete vehicle classes. (players in these vehicles will not be forced into first person)"
+    ]
+  }
+]
