@@ -1,5 +1,15 @@
 [
 	{
+		"version": "4.1.0",
+		"date": "2024-01-19",
+		"release-notes": [
+			"- Added menu text when not owning any vehicles/keys.",
+			"- Fixed sorting of vehicles/keys in key inventory.",
+			"- Fixed error for some users during sorting of vehicles/keys.",
+			"- Fixed file encoding of the German.lua to prevent umlauts turning into ?."
+		]
+	},
+	{
 		"version": "4.0.1",
 		"date": "2024-01-13",
 		"release-notes": [
