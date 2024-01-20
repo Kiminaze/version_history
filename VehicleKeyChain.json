@@ -1,5 +1,12 @@
 [
 	{
+		"version": "4.1.1",
+		"date": "2024-01-20",
+		"release-notes": [
+			"- Fixed missing client side exports."
+		]
+	},
+	{
 		"version": "4.1.0",
 		"date": "2024-01-19",
 		"release-notes": [
