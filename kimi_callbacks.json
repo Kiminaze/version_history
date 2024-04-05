@@ -1,0 +1,52 @@
+[
+	{
+		"version": "1.3.0",
+		"date": "2023-03-20",
+		"release-notes": [
+			"- Added error message display directly into the callbacks. Certain newer server versions should now see the messages in both client and server console!"
+		]
+	},
+	{
+		"version": "1.2.0",
+		"date": "2022-12-05",
+		"release-notes": [
+			"- Added asynchronous callbacks.",
+			"- Added additional error checking.",
+			"- Added additional detailed error messages.",
+			"- An error in a callback now immediately throws an error instead of waiting for the timeout.",
+			"- Reformatted everything.",
+			"- Added wiki to Github repo.",
+			"- Added releases.",
+			"- Updated license."
+		]
+	},
+	{
+		"version": "1.1.2",
+		"date": "2022-02-03",
+		"release-notes": [
+			"- Added an additional error check."
+		]
+	},
+	{
+		"version": "1.1.1",
+		"date": "2022-01-27",
+		"release-notes": [
+			"- Fixed error when registering a callback."
+		]
+	},
+	{
+		"version": "1.1.0",
+		"date": "2022-01-25",
+		"release-notes": [
+			"- Added additional error checks to show user friendly error messages.",
+			"- Exports now defined directly inside the script instead of the fxmanifest file."
+		]
+	},
+	{
+		"version": "1.0.0",
+		"date": "2021-06-01",
+		"release-notes": [
+			"- Initial release."
+		]
+	}
+]
