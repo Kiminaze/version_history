@@ -1,5 +1,12 @@
 [
 	{
+		"version": "4.1.5",
+		"date": "2024-04-22",
+		"release-notes": [
+			"- Fixed GetPlayerVehiclesAndKeyCount function returning duplicate entries."
+		]
+	},
+	{
 		"version": "4.1.4",
 		"date": "2024-02-25",
 		"release-notes": [
