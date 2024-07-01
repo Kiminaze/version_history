@@ -1,0 +1,27 @@
+[
+	{
+		"version": "2.0.0",
+		"date": "2022-12-25",
+		"release-notes": [
+			"- Now a proper resource and not just two exports and usage example.",
+			"- Deformation application now works better for vehicles with a low deformation multiplier.",
+			"- Better performance through a better use of state bags.",
+			"- No more “in-between-syncing” of damage. This used to cause the crumbling of the whole vehicle.",
+			"- Updated the license. If you are using this script in one of your resources, make sure to read it again if you want to update!"
+		]
+	},
+	{
+		"version": "1.0.1",
+		"date": "2022-01-09",
+		"release-notes": [
+			"- Fixed FixVehicleDeformation export from the example not syncing to every client properly."
+		]
+	},
+	{
+		"version": "1.0.0",
+		"date": "2022-01-01",
+		"release-notes": [
+			"- Initial release."
+		]
+	}
+]
