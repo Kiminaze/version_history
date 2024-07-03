@@ -1,5 +1,12 @@
 [
 	{
+		"version": "2.1.1",
+		"date": "2024-07-04",
+		"release-notes": [
+			"- Fixed typo in readme."
+		]
+	},
+	{
 		"version": "2.1.0",
 		"date": "2024-07-02",
 		"release-notes": [
