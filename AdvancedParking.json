@@ -7,10 +7,10 @@
 			"- Added debug messages when trying to update invalid vehicle.",
 			"- Added check and warning to `fixDeleteVehicle.lua` to see if it was loaded inside AdvancedParking itself.",
 			"- Performance improvements:",
-			"	 - Added `use_experimental_fxv2_oal` flag for faster native execution.",
+			"  - Added `use_experimental_fxv2_oal` flag for faster native execution.",
 			"  - Removed \"ghost\" vehicle check as it was unused.",
-			"	 - Server side updates now require a player that's close and a network owner.",
-			"	 - Server side updates ignore invalid health values.",
+			"  - Server side updates now require a player that's close and a network owner.",
+			"  - Server side updates ignore invalid health values.",
 			"- Client side getters for health values are now capped between their valid values."
 		]
 	},
