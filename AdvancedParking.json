@@ -1,5 +1,15 @@
 [
 	{
+		"version": "3.13.0",
+		"date": "2024-07-20",
+		"release-notes": [
+			"- Added config option to ignore state bag updates altogether.",
+			"- Added config option to prevent state bags from being auto saved.",
+			"- Fixed \"invalid entity\" error.",
+			"- Removed unnecessary thread creation."
+		]
+	},
+	{
 		"version": "3.12.0",
 		"date": "2024-07-12",
 		"release-notes": [
