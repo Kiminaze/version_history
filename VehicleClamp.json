@@ -1,0 +1,13 @@
+[
+	{
+		"version": "0.1.0",
+		"date": "2024-10-27",
+		"release-notes": [
+			"- Attaching a wheel clamp will prevent the vehicle from being driven.",
+			"- Vehicle can still be moved by external force (e.g. pushed or towed by other vehicle).",
+			"- Custom prop that adjusts to wheel size.",
+			"- Clamps can be attached/detached using items, exports or administrative commands.",
+			"- Uses state bags for synchronization between players."
+		]
+	}
+]
