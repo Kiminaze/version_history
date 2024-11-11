@@ -1,5 +1,12 @@
 [
 	{
+		"version": "0.1.2",
+		"date": "2024-11-11",
+		"release-notes": [
+			"- Fixed rotation issues when wheels are angled."
+		]
+	},
+	{
 		"version": "0.1.1",
 		"date": "2024-10-28",
 		"release-notes": [
