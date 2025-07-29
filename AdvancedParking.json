@@ -1,5 +1,13 @@
 [
 	{
+		"version": "4.11.1",
+		"date": "2025-07-29",
+		"release-notes": [
+			"- Fixed client side convar defaults not matching server side.",
+			"- Fixed nil value error when cleanup was running at a specified time without a defined day."
+		]
+	},
+	{
 		"version": "4.11.0",
 		"date": "2025-07-27",
 		"release-notes": [
