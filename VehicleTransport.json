@@ -1,5 +1,19 @@
 [
 	{
+		"version": "2.2.0",
+		"date": "2025-10-14",
+		"release-notes": [
+			"- Added new logging system.",
+			"- Added more debug log entries.",
+			"- Updated license.",
+			"- Moved files around.",
+			"- Formatting changes.",
+			"- Fixed transport data not loading under certain occasions.",
+			"- Fixed problem where players cannot enter vehicles in a transport area.",
+			"- Fixed not being able to properly overwrite existing transport data."
+		]
+	},
+	{
 		"version": "2.1.1",
 		"date": "2023-02-07",
 		"release-notes": [
