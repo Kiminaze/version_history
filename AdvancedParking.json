@@ -1,5 +1,12 @@
 [
 	{
+		"version": "5.0.1",
+		"date": "2026-10-24",
+		"release-notes": [
+			"- Fixed telemetry being enabled by default."
+		]
+	},
+	{
 		"version": "5.0.0",
 		"date": "2026-10-23",
 		"release-notes": [
