@@ -1,5 +1,14 @@
 [
 	{
+		"version": "5.0.2",
+		"date": "2026-10-24",
+		"release-notes": [
+			"- Fixed all patches using oxmysql.",
+			"- Fixed file mismatches in fxmanifest.",
+			"- Fixed vehicles being stored in a default garage when using jg-advancedgarages."
+		]
+	},
+	{
 		"version": "5.0.1",
 		"date": "2026-10-24",
 		"release-notes": [
