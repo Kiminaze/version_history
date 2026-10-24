@@ -1,5 +1,12 @@
 [
 	{
+		"version": "5.0.3",
+		"date": "2026-10-24",
+		"release-notes": [
+			"- Fixed race condition with related to resource and file loadorder."
+		]
+	},
+	{
 		"version": "5.0.2",
 		"date": "2026-10-24",
 		"release-notes": [
